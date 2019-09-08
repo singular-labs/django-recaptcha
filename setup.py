@@ -7,7 +7,7 @@ long_desc = open('README.rst', 'rb').read().decode('utf-8') + '\n\n' + \
 
 setup(
     name='django-recaptcha',
-    version='2.0.5',
+    version='2.0.5s',
     description='Django recaptcha form field/widget app.',
     long_description=long_desc,
     author='Praekelt Consulting',
@@ -16,7 +16,7 @@ setup(
     url='http://github.com/praekelt/django-recaptcha',
     packages=find_packages(),
     install_requires=[
-        'django>1.11,<3.0',
+        'django>1.7,<3.0',
     ],
     tests_require=[
         'tox',

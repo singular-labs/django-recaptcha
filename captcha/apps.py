@@ -9,4 +9,4 @@ class CaptchaConfig(AppConfig):
     verbose_name = "Django reCAPTCHA"
 
     def ready(self):
-        register(recaptcha_key_check, Tags.security)
+        register(recaptcha_key_check, 'security')
